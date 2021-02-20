@@ -29,6 +29,11 @@ main {
     height: 100%;
 }
 
+a {
+    color: var(--clr__dark);
+    cursor: pointer;
+}
+
 .canvas-grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -68,4 +73,10 @@ main {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 0 1px var(--clr__light);
+}
+
+footer {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
 }

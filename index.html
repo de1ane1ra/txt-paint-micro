@@ -4,14 +4,14 @@
     <head>
         <meta charset="utf-8">
 
-        <title>txt-paint</title>
+        <title>txt-paint-micro</title>
 
         <link rel="stylesheet" type="text/css" href="index.css" />
     </head>
 
     <body>
         <main>
-            <section class="canvas-grid">
+            <section class="canvas-grid" data-canvas-grid>
                 <div data-char-cont></div>
                 <div data-char-cont></div>
                 <div data-char-cont></div>
@@ -253,6 +253,10 @@
                 <div data-palette-char-cont contenteditable="true"></div>
             </div>
         </section>
+
+        <footer>
+            <a href="#" data-export-txt>export .txt</a>
+        </footer>
 
         <script type="text/javascript" src="index.js"></script>
     </body>
